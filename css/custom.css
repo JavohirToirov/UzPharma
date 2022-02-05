@@ -3,7 +3,15 @@
     --blue: #0088cc;
     --white: #ffffff;
 }
-
+/*  */
+/* autoplay:false
+autoplayTimeout:5000
+autoplayHoverPause:false */
+/*  */
+.taqdimot_block .post:hover{
+    box-shadow: 1px 1px 20px 6px rgb(0 0 0 / 20%) !important;;
+    cursor: pointer !important;
+}
 /* header start */
 
 .adds-box {
@@ -740,6 +748,7 @@ tbody tr td a:hover {
     .news_link-section-block-right-title {
         text-align: center;
     }
+ 
 }
 
 @media (max-width: 414px) {

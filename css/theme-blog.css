@@ -7,7 +7,17 @@ Theme Version:	8.3.0
 .blog-posts:not(.blog-posts-no-margins) article {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 	margin-bottom: 50px;
-	padding-bottom: 20px;
+	padding: 10px 20px;
+	-webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.03);
+	-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.03);
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.03);
+	transition: 0.5s;
+}
+.blog-posts:not(.blog-posts-no-margins) article:hover {
+
+	-webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
 .blog-posts:not(.blog-posts-no-margins) .pagination {
@@ -32,6 +42,7 @@ article.post .post-meta {
 article.post .post-meta > span {
 	display: inline-block;
 	padding-right: 8px;
+	padding-bottom: 10px;
 }
 
 article.post .post-meta i {
